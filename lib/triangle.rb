@@ -1,5 +1,6 @@
 class Triangle
   attr_accessor :l, :r, :d
+  
   def initialize left, right, down
     @l, @r, @d = left, right, down
   end
