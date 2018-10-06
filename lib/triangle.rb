@@ -12,7 +12,7 @@ class Triangle
     raise TriangleError if valided_triangle.include?(false)
     if l == r && r == d
       :equilateral
-    elsif l == r || l == d || r == d 
+    elsif l == r || l == d || r == d
       :isosceles
     else
       :scalene
